@@ -9,8 +9,6 @@ const licenses = [
   ];
 
 
-
-
 inquirer.prompt([
   {
     type: 'input',
@@ -72,7 +70,7 @@ inquirer.prompt([
   };
 
   let licenseBadge;
-  if (readmeTemplate.license === 'mit') {
+  if (readmeTemplate.license === 'MIT') {
     licenseBadge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
   } else {
     licenseBadge = `[![License: ${readmeTemplate.license.toUpperCase()}](https://img.shields.io/badge/License-${readmeTemplate.license}-yellow.svg)](https://opensource.org/licenses/${readmeTemplate.license})`;
