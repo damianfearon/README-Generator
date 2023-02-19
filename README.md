@@ -32,7 +32,6 @@ If you encounter any issues during the installation process, please refer to the
 5. Answer the questions. 
 </br>
 </br>
-![Example](readme1.jpg)
   
   ## License
   ![License: mit](https://img.shields.io/badge/License-mit-brightgreen.svg)
